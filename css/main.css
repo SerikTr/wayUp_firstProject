@@ -4,7 +4,12 @@ body {
 	font-size: 15px;
 	padding: 0;
 	margin: 0;
+	/* позволяет убрать скролл во время анимации*/
+	overflow-x: hidden;
 	
+}
+.animated {
+	opacity: 1; /*позволяет  не видить обьект раньше анимации*/
 }
 
 div, p, input, button, form, span, a, ul, li {
@@ -38,6 +43,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#473e5f', end
 padding-top: 100px;
 color: #fff;
 padding-bottom: 225px;
+}
+.color {
+	color: blueviolet;
 }
 
 .wrapper {
